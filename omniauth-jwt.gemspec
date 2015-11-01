@@ -24,7 +24,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard"
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "rack-test"
-  
-  spec.add_dependency "jwt"
-  spec.add_dependency "omniauth", "~> 1.1"
+  spec.add_development_dependency "multi_json"
+
+  spec.add_dependency 'jwt'
+  spec.add_dependency 'omniauth', '~> 1.2', '>= 1.2.2'
 end
